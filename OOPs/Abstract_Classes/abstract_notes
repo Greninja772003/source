@@ -1,0 +1,39 @@
+The abstract Method is used for creating blueprints for classes or interfaces. Here methods are defined but these
+methods don’t provide the implementation. Abstract Methods can only be implemented using subclasses or classes that
+implement the interfaces.
+
+Any class that contain one or more abstract method/functions must also be declared as abstract.
+
+[abstract void name (String name);] this shows how an abstract variable is declared in the parent_class so that its
+child class have to override the parent class method in order to use them for their own purpose and results.
+
+[ public abstract class parent {
+    abstract  void career();
+    abstract void  partner ();  }
+  ] class of name "parent" is declared as abstract because it contain abstract variables
+   [  public  class son extends parent {
+         @Override
+         void career() {
+             System.out.println("I am going to be a professional footballer"); }
+         @Override
+         void partner() {
+             System.out.println("I love playing football" ); }}
+      ] here "son" is a child of parent who is using instance of career and partner variable and creating their object
+for his own usage by overriding it.
+
+We can't create a object of parent class as it doesn't have any object hence it will call @Override method for his
+career and partner abstract variables
+[
+      parent dad = new parent(34) {
+     @Override
+      void career() {
+     @Override
+      void partner() {} };
+]
+
+We know that overriding is not possible is static methods hence we can't use abstract class in static methods but
+static methods can be used within abstract classes.
+
+
+
+

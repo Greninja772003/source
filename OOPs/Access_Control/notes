@@ -1,0 +1,39 @@
+In a class when a variable or any unit is declared as private then it can't be accessible for any other class or file
+directly.
+
+If a variable is declared as private in class then we can access it via getters and setters method/function .
+
+Getters and Setters are worked like a constructors where getter hold accessing power of variable and setter can change
+it's value according to our need.
+
+When variables are declared as public in class then they can be accessible across their every package or folder, but
+when nothing is mentioned than the variable can be accessible only for the same package classes but not for the other
+folder packages.
+
+Protected modifier are used to declare class or variable accessible for same class,package subclass of same pkg and
+subclass of diff pkg.
+
+Modifiers and their Accessibility :
+a) "public" Modifier :- Applicable in :
+-> Class file
+-> Package file
+-> Subclass (same pkg)
+-> Subclass (diff pkg)
+-> Everywhere (diff pkg & not subclass
+b) "protected" Modifier :- Applicable in :
+-> Class file
+-> Package file
+-> Subclass (same pkg)
+-> Subclass (diff pkg)
+c) No Modifier :- Applicable in :
+-> Class file
+-> Package file
+-> Subclass (same pkg)
+d) "private" Modifier :- Applicable in :
+-> Class file
+
+In different packages with Protected variable or class can only be accessible via creating their subclass.
+
+[ if (obj.equals(obj2)){  System.out.println("obj is equal to obj2"); } ] .equals is a method/function which is used to
+compare two entities the pre-defined functions.
+

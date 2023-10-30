@@ -1,0 +1,11 @@
+1) ->Interface methods do not have a body - the body is provided by the "implement" class. On implementation of an
+interface, you must override all of its methods. Interface methods are by default abstract and public.
+Interface attributes are by default public , static and final.
+
+2) ->When you run a function in child class and it exists in the parent class then during compile time both the classes
+should be available while compilation process.
+
+3) ->Interface contradict the basic hierarchy classification of method accessibility ,in Interface irrespective of the
+position of a class any one can call any method/function wherever it is declared.
+
+4) ->By using interface, two classes that are unrelated to each other can use share same method/function.

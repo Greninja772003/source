@@ -1,0 +1,11 @@
+There are two types of packages :
+a) User Defined
+b) In-built
+
+In-built packages:
+a) lang
+b) Input - Output
+c) util (utility packages)
+d) applet
+e) awt
+d) net
